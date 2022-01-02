@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#startBtn {
+  font-size: 140%;
+  color: #fff;
+  background-color: rgb(21, 255, 0);
+  border: #fff;
+  border-radius: 10%;
+  transition-duration: 0.4s;
+}
+
+#startBtn:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#startBtn {
+  font-size: 140%;
+  color: #fff;
+  background-color: rgb(21, 255, 0);
+  border: #fff;
+  border-radius: 10%;
+  transition-duration: 0.4s;
+}
+
+#startBtn:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#moveonBtn {
+  font-size: 120%;
+  color: #fff;
+  background-color: rgb(21, 255, 0);
+  border: #fff;
+  border-radius: 10%;
+  transition-duration: 0.4s;
+}
+
+#moveonBtn:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#option1 {
+  font-size: 130%;
+}
+
+#google-mapsIframe {
+  border: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}

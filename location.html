@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Whats For Dinner?</title>
+	<link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h2 id="putlocation">Please put in your location</h2>
+  <br>
+  <p id="demo"></p>
+	<p id="whyinfo">You may ask. "why do we need your location". Well we need your loaction so we know the nearest restaurants
+		to you. So our computer systems could process what you may like.</p>
+	<br>
+  <div class="locationsearch-container">
+      <input type="search-location" placeholder="Search Location.." name="search_location">
+      <button id="submit-locationBtn" type="submit">Submit</button>
+    </form>
+  </div>
+  <br>
+
+  <div class="googleMap">
+    <iframe id="google-mapsIframe" src="https://www.google.com/maps/embed" width="740" height="380"></iframe>
+  </div>
+  <br>
+  <button id="getLocationBtn" onclick="getLocation()">Get my location</button>
+
+<script src="/script.js" type="text/javascript"/>
+</body>
