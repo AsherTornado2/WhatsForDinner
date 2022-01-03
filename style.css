@@ -6,12 +6,13 @@ body {
 }
 
 #startBtn {
-  font-size: 140%;
+  font-size: 130%;
   color: #fff;
   background-color: rgb(21, 255, 0);
   border: #fff;
   border-radius: 10%;
   transition-duration: 0.4s;
+  width: 120px;
 }
 
 #startBtn:hover {
