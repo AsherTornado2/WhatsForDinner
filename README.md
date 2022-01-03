@@ -4,4 +4,3 @@
 # Info
 #### Developer(s): AsherTornado
 #### Publisher: AsherTornado Studio
-#### Copyright Owner: AsherTornado Studio
