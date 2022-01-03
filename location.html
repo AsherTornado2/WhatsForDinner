@@ -6,12 +6,12 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Whats For Dinner?</title>
 	<link href="/style.css" rel="stylesheet" type="text/css" />
-  <link href="images/favicon.ico" rel="icon" type="image" />
+	<link href="images/favicon.ico" rel="icon" type="image" />
 </head>
 
 <body>
 	<h2 id="putlocation">Please put in your location</h2>
-  <br>
+	<br>
   <p id="demo"></p>
 	<p id="whyinfo">You may ask. "why do we need your location". Well we need your loaction so we know the nearest restaurants
 		to you. So our computer systems could process what you may like.</p>
@@ -19,15 +19,19 @@
   <div class="locationsearch-container">
       <input type="search-location" placeholder="Search Location.." name="search_location">
       <button id="submit-locationBtn" type="submit"><a href="/processing.html">Submit</a></button>
-    </form>
+      <button id="getLocationBtn" onclick="getLocation()"><a href="/processing.html">Get my location</a></button>
+  </form>
   </div>
   <br>
-
   <div class="googleMap">
     <iframe id="google-mapsIframe" src="https://www.google.com/maps/embed" width="740" height="380"></iframe>
   </div>
-  <br>
-  <button id="getLocationBtn" onclick="getLocation()"><a href="/processing.html">Get my location</a></button>
+<br>
+<div class="footer">
+  <footer id="footer">
+    <p id="copyright">Copyright &#169 2022 AsherTornado. All Rights Reserved. Website by: <a id="website-by" href="http://ashertornado.com" target="_blank">AsherTornado Studio</a></p>
+  </footer>
+</div>
 
-<script src="/script.js" type="text/javascript"/>
+<script src="/script.js" type="text/javascript"></script>
 </body>
