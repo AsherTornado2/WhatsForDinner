@@ -3,7 +3,7 @@
 WhatsForDinner is a program that you can use if you 
 don't know where you want to go out to eat for dinner.
 
-If you want to contact me, my email is [ENTER EMAIL]
+If you want to contact me, my email is example@example.com
 
 
 
@@ -12,10 +12,10 @@ If you want to contact me, my email is [ENTER EMAIL]
 - Cross platform
 - Selection of many foods
 - Resturant Selection
-- Favoriting Resturants
+- Select your favorite resturants
 ## Feedback
 
-If you have any feedback, please reach out to me at fake@fake.com
+If you have any feedback, please reach out to me at example@example.com
 
 
 ## License
