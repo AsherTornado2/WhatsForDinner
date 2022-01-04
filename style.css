@@ -39,8 +39,9 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
 #moveonBtn {
   font-size: 120%;
+  font-weight: bold;
   color: #fff;
-  background-color: rgb(21, 255, 0);
+  background-color: #1fffff;
   border: #fff;
   border-radius: 10%;
   transition-duration: 0.4s;
@@ -55,13 +56,34 @@ margin: 0;
 padding: 0;
 }
 
-#google-mapsIframe {
-  border: none;
+.locationsearch-container {
+  left: 104px;
+  position: relative;
 }
 
 #getLocationBtn {
-  right: 357px;
+  right: 350px;
+  bottom: 7px;
   position: relative;
+  background-color: #f8ff2f;
+  border: none;
+  width: 100px;
+  font-weight: bold;
+  transition-duration: 0.4s; 
+}
+
+#getLocationBtn:hover {
+  border: #f8ff2f;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#google-mapsIframe {
+  border: none;
+  text-align: center;
+  align-items: center;
+  top: -16px;
+  position: relative;
+  z-index: -1;
 }
 
 .footer {
