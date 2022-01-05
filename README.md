@@ -1,4 +1,4 @@
-#  WhatsForDinner
+#  WhatsForDinner (.NET Core/Windows)
 
 WhatsForDinner is a program that you can use if you 
 don't know where you want to go out to eat for dinner.
