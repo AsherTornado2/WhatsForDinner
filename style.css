@@ -3,6 +3,8 @@ body {
   text-align: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  overflow: hidden;
 }
 
 #startBtn {
@@ -62,18 +64,29 @@ padding: 0;
 }
 
 #getLocationBtn {
-  right: 350px;
+  left: -382px;
   bottom: 7px;
   position: relative;
   background-color: #f8ff2f;
   border: none;
-  width: 100px;
+  width: 98px;
   font-weight: bold;
   transition-duration: 0.4s; 
 }
 
 #getLocationBtn:hover {
-  border: #f8ff2f;
+  border: #000 solid 2px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#submit-locationBtn {
+  border: none;
+  width: 90px;
+  transition-duration: 0.4s;
+}
+
+#submit-locationBtn:hover {
+  border: #000 solid 2px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
