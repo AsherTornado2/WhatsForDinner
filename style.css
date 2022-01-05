@@ -3,8 +3,6 @@ body {
   text-align: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  overflow: hidden;
 }
 
 #startBtn {
@@ -61,6 +59,10 @@ padding: 0;
 .locationsearch-container {
   left: 104px;
   position: relative;
+}
+
+.locationsearch-container {
+  -ms-overflow-style: none;
 }
 
 #getLocationBtn {
