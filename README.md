@@ -30,4 +30,4 @@ If you have any feedback, please reach out to me at (Sorry no feedback email yet
 ## Authors
 
 - [AsherTornado](https://www.github.com/ashertornado)
-- [My alt accout](https://www.github.com/ashertornado2)
+- [My alt accout (AsherTornado2)](https://www.github.com/ashertornado2)
